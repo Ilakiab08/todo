@@ -1,0 +1,64 @@
+
+
+body{
+    height: 50%;
+    width:50%;
+    margin:20px;
+    background-color:rgb(188, 139, 139);
+    border-radius:10px;
+    padding:30px;
+
+}
+
+
+
+#container,h2{
+    
+    display:flex;
+    justify-content: center;
+     
+    
+    }
+
+
+#input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding: left 20px;
+  
+    
+    
+
+}
+button{
+    margin:20px;
+    border-style: solid;
+    background-color:aquamarine;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color:black;
+
+}
+button:hover{
+    color: aqua;
+}
+#todo{
+    color:black;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todo p{
+  margin:10px 0px;
+}
+
+#todo p:hover{
+  cursor: pointer;
+}
