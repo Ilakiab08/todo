@@ -5,7 +5,7 @@ let input=document.querySelector('#input');
 //local storage
 /* const localStorageKey="groupProject"
 let todoList=JSON.parse(localStorage.getItem(localStorageKey))  ||  [] */
-
+localStorage.setItem('todoList',JSON.stringify)
 
 //create a todo array helps to add and delete from storage easily
 let todoList=[];
@@ -31,5 +31,5 @@ function addlist(list){
        remove(list)
 
     })
-    localStorage.setItem('todoList',JSON.stringify)
+   
 }
